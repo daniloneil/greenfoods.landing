@@ -1406,6 +1406,10 @@ button {
             .container {
                 .heroContent {
                     .heroDesc {
+                        &:after {
+                            top: 0;
+                            left: 20%;
+                        }
 
                         .btnSection {
                             align-self: center;
